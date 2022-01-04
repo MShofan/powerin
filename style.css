@@ -255,6 +255,7 @@
 .portofolio {
   width: 100%;
   padding: 2px;
+  object-fit: cover;
 }
 
 /* =========================================================== responsive */
