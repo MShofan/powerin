@@ -254,8 +254,11 @@
 /* =========================================================== responsive */
 .portofolio {
   width: 100%;
-  padding: 2px;
+  padding: 1px;
   object-fit: cover;
+}
+.portofolio p {
+  font-size: smaller;
 }
 
 /* =========================================================== responsive */
