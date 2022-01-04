@@ -161,13 +161,13 @@
 }
 
 .progress {
-  animation: loader 5s ease forwards;
+  animation: loader 10s ease forwards;
   background: white;
   padding: 5px;
 }
 
 .progress:hover {
-  animation: loader 5s ease infinite;
+  animation: loader 10s ease infinite;
   background: white;
   padding: 5px;
 }
@@ -219,6 +219,8 @@
 /* =========================================================== Service*/
 .owl-carousel {
   width: auto;
+  justify-content: center;
+  align-items: center;
 }
 .owl-item {
   margin-top: 20px;
@@ -236,7 +238,7 @@
   height: 425px;
   margin: 10px;
   border-radius: 10px;
-  transition: 1s;
+  transition: 2s;
 }
 .judulservices {
   font-size: x-large;
@@ -252,6 +254,11 @@
   text-align: justify;
   font-weight: 600;
   padding: 5px;
+}
+/* =========================================================== responsive */
+.portofolio {
+  width: 100%;
+  padding: 2px;
 }
 
 /* =========================================================== responsive */
